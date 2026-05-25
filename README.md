@@ -6,8 +6,9 @@ Steps:
 3. If there are any pairs of people that both owe one another money, take the smallest of these debts and subtract it from the other to simplify
 4. Transitivity of debt: if a owes b and b owes c, make simplify out the middle man
 5. Distributivity of debt: if a and b owe x and y and a owes x the least, take the amount a owes to x from ax and by and add it to bx and ay
-      Note: Distributivity doesn't reduce total debt paid but it can reduce the number of necessary transactions to resolve those debts
 6. Clean up the data again, remove any now unnecessary columns and rows and clean floating errors
+
+Note: Distributivity doesn't reduce total debt paid but it can reduce the number of necessary transactions to resolve those debts
 
 Input data (randomised for testing):
 <img width="1897" height="637" alt="image" src="https://github.com/user-attachments/assets/54301e21-c9e7-41b9-9681-ba0c0c697aab" />
