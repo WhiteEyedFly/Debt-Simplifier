@@ -4,7 +4,7 @@ Steps:
 1. Validate the data and remove any debtors that have no debts and are owed no money
 2. Remove any debts to oneself
 3. If there are any pairs of people that both owe one another money, take the smallest of these debts and subtract it from the other to simplify
-4. Transitivity of debt: if a owes b and b owes c, make simplify out the middle man
+4. Transitivity of debt: if a owes b and b owes c, simplify out the middle man
 5. Distributivity of debt: if a and b owe x and y and a owes x the least, take the amount a owes to x from ax and by and add it to bx and ay
 6. Clean up the data again, remove any now unnecessary columns and rows and clean floating errors
 
