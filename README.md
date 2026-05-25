@@ -17,6 +17,7 @@ Output payment matrix:
 
 
 Report:
+
 <img width="598" height="799" alt="image" src="https://github.com/user-attachments/assets/585032c5-3a13-43e3-a3bb-97a2ba459db4" />
 
 The project has nested code up to four levels deep so works at O(n^4) with a matrix of 50 people in worst possible conditions taking 60 second to complete. It is intended for use personally so this upper limit poses no real issue at present.
